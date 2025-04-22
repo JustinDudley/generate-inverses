@@ -8,7 +8,13 @@ in turn order. For instance, the output list (of inverses) might have an alg con
 But the matching alg in the original list might, by chance, list those 2 turns in the functionally 
 equivalent (and opposite) way:  R' L.
 
-This problem is not overwhelming.  I would need to standardize turn order, and convert each alg to a standard notation
-before searching for matches.  But it is beyond today's scope.
+This problem could be solved, and is not overwhelming.  I would need to standardize turn order, and convert each 
+alg to a standard notation before searching for matches.  But it is beyond today's scope.
 
 For now, the app at least does generate a list of inverses.
+
+
+Whew -- I had a scare there. Forgetting everything I had written above, I thought that id 32 was incomplete. But I went 
+through id 32:  When I generated the inverse of EACH alg in the filtered list, I
+found that every single one was already in the list, as expected. But there were the same issues:  D Y' == Y' D, for instance.
+So I had to look closely.
